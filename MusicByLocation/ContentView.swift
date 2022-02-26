@@ -12,9 +12,10 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text(locationHandler.lastKnownLocation)
-            Text(locationHandler.lastKnownSpecificLocation)
-                .padding()
+            Text("City: \(locationHandler.lastKnownLocation)")
+            Text("Area: \(locationHandler.lastKnownSpecificLocation)")
+            Text("Postcode: \(locationHandler.lastKnownPostcode)")
+            Text("Areas of Interest: \(locationHandler.areasOfInterest)")
             Spacer()
             Button("Find Music", action: {locationHandler.requestLocation()})
         }.onAppear(perform: {
