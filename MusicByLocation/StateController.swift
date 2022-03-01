@@ -15,6 +15,7 @@ class StateController: ObservableObject {
     
     func findMusic() {
         locationHandler.requestLocation()
+        getArtists()
     }
     
     func requestAccessToLocationData(){
