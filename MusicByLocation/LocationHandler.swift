@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-class LocationHandler: NSObject, CLLocationManagerDelegate, ObservableObject {
+class LocationHandler: NSObject, CLLocationManagerDelegate{
     let manager = CLLocationManager()
     let geocoder = CLGeocoder()
     weak var stateController: StateController?
@@ -36,7 +36,7 @@ class LocationHandler: NSObject, CLLocationManagerDelegate, ObservableObject {
                     
                 } else {
                     if let firstPlacemark = placemarks?[0] {
-                        self.stateController?.lastKnownLocation = firstPlacemark.getLocationBreakdown()
+                        self.stateController?.lastKnownLocation = firstPlacemark.locality ?? ""
                         
                     }
                 }

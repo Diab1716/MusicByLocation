@@ -11,8 +11,8 @@ struct ArtistResponse: Codable {
     var count: Int
     var results: [Artist]
     
-    private enum codingKeys: String, CodingKey {
+    private enum CodingKeys: String, CodingKey {
         case count = "resultCount"
-        case result
+        case results
     }
 }

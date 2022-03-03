@@ -12,14 +12,14 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text(state.artistNames)
-            Text("\(state.lastKnownLocation)")
+            Text(state.artistsByLocation)
+            
                 .padding()
             Spacer()
             Button("Find Music", action: {state.findMusic()})
         }.onAppear(perform: {
             state.requestAccessToLocationData()
-            state.getArtists()
+            
         })
         
     }

@@ -15,6 +15,7 @@
 		B642819727C96A77006FF1E9 /* MusicByLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B642819627C96A77006FF1E9 /* MusicByLocationUITests.swift */; };
 		B642819927C96A77006FF1E9 /* MusicByLocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B642819827C96A77006FF1E9 /* MusicByLocationUITestsLaunchTests.swift */; };
 		B64281A627C96B63006FF1E9 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64281A527C96B63006FF1E9 /* LocationHandler.swift */; };
+		B69EAE3427D169890074ECF8 /* ITunesAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69EAE3327D169890074ECF8 /* ITunesAdaptor.swift */; };
 		B6AC508827CBAD6A00AF8DC1 /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AC508727CBAD6A00AF8DC1 /* CLPlacemark.swift */; };
 		B6AC508A27CBAED000AF8DC1 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AC508927CBAED000AF8DC1 /* StateController.swift */; };
 		B6AC508D27CBB41700AF8DC1 /* ArtistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AC508C27CBB41700AF8DC1 /* ArtistResponse.swift */; };
@@ -50,6 +51,7 @@
 		B642819627C96A77006FF1E9 /* MusicByLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITests.swift; sourceTree = "<group>"; };
 		B642819827C96A77006FF1E9 /* MusicByLocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B64281A527C96B63006FF1E9 /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		B69EAE3327D169890074ECF8 /* ITunesAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesAdaptor.swift; sourceTree = "<group>"; };
 		B6AC508727CBAD6A00AF8DC1 /* CLPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
 		B6AC508927CBAED000AF8DC1 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		B6AC508C27CBB41700AF8DC1 /* ArtistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResponse.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		B642817A27C96A75006FF1E9 /* MusicByLocation */ = {
 			isa = PBXGroup;
 			children = (
+				B69EAE3327D169890074ECF8 /* ITunesAdaptor.swift */,
 				B642817B27C96A75006FF1E9 /* MusicByLocationApp.swift */,
 				B642817D27C96A75006FF1E9 /* ContentView.swift */,
 				B64281A527C96B63006FF1E9 /* LocationHandler.swift */,
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B64281A627C96B63006FF1E9 /* LocationHandler.swift in Sources */,
+				B69EAE3427D169890074ECF8 /* ITunesAdaptor.swift in Sources */,
 				B642817E27C96A75006FF1E9 /* ContentView.swift in Sources */,
 				B642817C27C96A75006FF1E9 /* MusicByLocationApp.swift in Sources */,
 				B6AC508827CBAD6A00AF8DC1 /* CLPlacemark.swift in Sources */,
@@ -455,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicByLocation/Preview Content\"";
+				DEVELOPMENT_TEAM = U247FWQ42U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to find your favourite tunes";
@@ -484,6 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicByLocation/Preview Content\"";
+				DEVELOPMENT_TEAM = U247FWQ42U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to find your favourite tunes";
